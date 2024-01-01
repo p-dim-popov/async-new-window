@@ -1,6 +1,6 @@
 {
   "name": "react-async-new-window",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
@@ -19,12 +19,12 @@
     "format": "prettier --write"
   },
   "dependencies": {
-    "async-new-window-core": "^0.0.1"
+    "async-new-window-core": "^0.0.2"
   },
   "devDependencies": {
     "@local/prettier-config": "^0.0.1",
-    "@local/vite-lib-config": "*",
-    "@local/tsconfig": "*",
+    "@local/tsconfig": "^0.0.1",
+    "@local/vite-lib-config": "^0.0.1",
     "@types/node": "^20.10.2",
     "@types/react": ">=16.14.0",
     "@types/react-dom": ">=16.14.0",

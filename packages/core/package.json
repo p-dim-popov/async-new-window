@@ -1,6 +1,6 @@
 {
   "name": "async-new-window-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
@@ -20,8 +20,8 @@
   },
   "devDependencies": {
     "@local/prettier-config": "^0.0.1",
-    "@local/vite-lib-config": "*",
-    "@local/tsconfig": "*",
+    "@local/tsconfig": "^0.0.1",
+    "@local/vite-lib-config": "^0.0.1",
     "@types/node": "^20.10.2",
     "prettier": "^3.1.0",
     "typescript": "^5.2.2",

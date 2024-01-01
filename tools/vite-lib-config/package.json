@@ -1,9 +1,11 @@
 {
   "name": "@local/vite-lib-config",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/index.mjs",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "module": "./dist/index.mjs",
   "exports": {
     ".": {
@@ -18,11 +20,11 @@
     "format": "prettier --write"
   },
   "devDependencies": {
+    "@local/tsconfig": "^0.0.1",
     "prettier": "^3.1.1",
-    "vite": "^5.0.10",
-    "vite-plugin-dts": "^3.7.0",
     "typescript": "^5.3.3",
-    "@local/tsconfig": "*"
+    "vite": "^5.0.10",
+    "vite-plugin-dts": "^3.7.0"
   },
   "peerDependencies": {
     "vite": "^5.0.0"
