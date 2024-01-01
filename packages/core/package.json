@@ -1,8 +1,10 @@
 {
   "name": "async-new-window-core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "module": "./dist/index.js",
   "exports": {
     ".": {
@@ -17,11 +19,11 @@
     "format": "prettier --write"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.0.0",
-    "vite-plugin-dts": "^3.6.4",
+    "@local/prettier-config": "^0.0.1",
     "@types/node": "^20.10.2",
     "prettier": "^3.1.0",
-    "@local/prettier-config": "*"
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.4"
   }
 }

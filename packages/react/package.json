@@ -1,8 +1,10 @@
 {
   "name": "react-async-new-window",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "module": "./dist/index.js",
   "exports": {
     ".": {
@@ -17,17 +19,17 @@
     "format": "prettier --write"
   },
   "dependencies": {
-    "async-new-window-core": "*"
+    "async-new-window-core": "^0.0.1"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.0.0",
-    "vite-plugin-dts": "^3.6.4",
+    "@local/prettier-config": "^0.0.1",
     "@types/node": "^20.10.2",
     "@types/react": ">=16.14.0",
     "@types/react-dom": ">=16.14.0",
     "prettier": "^3.1.0",
-    "@local/prettier-config": "*"
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.4"
   },
   "peerDependencies": {
     "react": ">=16.14.0",
