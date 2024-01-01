@@ -1,0 +1,1 @@
+export { useAsyncNewWindow } from './hook';

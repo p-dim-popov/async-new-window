@@ -1,0 +1,9 @@
+{
+  "name": "@local/prettier-config",
+  "private": true,
+  "version": "0.0.0",
+  "main": ".prettierrc.json",
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
