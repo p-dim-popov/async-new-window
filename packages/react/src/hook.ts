@@ -66,7 +66,7 @@ const reactRenderSync = (reactElement: ReactElement, container: HTMLElement) => 
 
 const reactRender = ((): (element: ReactElement, container: HTMLElement) => void => {
   if ('createRoot' in ReactDomClient && typeof ReactDomClient.createRoot === 'function') {
-    const reactCreateRoot = ReactDomClient.createRoot as (container: HTMLElement) => { render: (element: ReactElement) => void };
+    const reactCreateRoot = ReactDomClient.createRoot
     return (element, container) => reactCreateRoot(container)
       .render(element);
   }
