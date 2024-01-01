@@ -1,0 +1,33 @@
+{
+  "name": "@local/vite-lib-config",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/index.mjs",
+  "files": ["dist"],
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && vite build",
+    "format": "prettier --write"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "vite": "^5.0.10",
+    "vite-plugin-dts": "^3.7.0",
+    "typescript": "^5.3.3",
+    "@local/tsconfig": "*"
+  },
+  "peerDependencies": {
+    "vite": "^5.0.0"
+  },
+  "optionalDependencies": {
+    "vite-plugin-dts": "^3.7.0"
+  }
+}
